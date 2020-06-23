@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('.bars').click(function() {
+                $('.nav-menu').toggleClass("show");
+
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <section id="home">
+        <header id="navbar">
+            <div class="logo">
+                <h1>FURI</h1>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-link"><a href="#home">Home</a></li>
+                <li class="nav-link"><a href="#about">About</a></li>
+                <li class="nav-link"><a href="#features">Feature</a></li>
+                <li class="nav-link"><a href="#products">Products</a></li>
+                <li class="nav-link"><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="bars">
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="three"></div>
+            </div>
+        </header>
+    </section>
+    <section id="about">
+        <div class="title">
+            <h3>About Us</h3>
+        </div>
+        <div class="about">
+
+            <div class="about-img">
+                <img src="img/1-1-2.jpg" alt="">
+            </div>
+            <div class="about-text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem velit perspiciatis vel corrupti non quos iusto sit dolore maxime, facere asperiores odio dignissimos? Pariatur, deleniti? Amet blanditiis totam vero possimus. Lorem ipsum
+                    dolor sit amet consectetur adipisicing elit. Aliquam quo deserunt distinctio, impedit atque consequatur ab reprehenderit! Dolorem dignissimos aspernatur voluptate nam placeat eos deleniti alias obcaecati esse sequi. Repellat. Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Illum repellat totam dicta earum excepturi, placeat error, ad alias eos debitis similique iste tempore facere nam. Est, consequuntur. Voluptas, iste deleniti.
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <section id="features">
+        <div class="title">
+            <h3>Why Us</h3>
+        </div>
+        <div class="features">
+            <div class="box">
+                <i class="fas fa-map-marker-alt"> Easy to Find Us</i>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem ratione maiores consequatur enim temporibus modi fugit fugiat, nemo esse saepe minus accusantium consequuntur deleniti libero aliquam veritatis officiis vero alias.
+                </p>
+            </div>
+            <div class="box">
+                <i class="fas fa-shuttle-van"> Delivery Faster</i>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis cumque, praesentium nemo saepe in nam inventore placeat quidem facilis dignissimos exercitationem error! Recusandae iste suscipit fuga temporibus sint numquam eos.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-tags"> Discount 50% </i>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem cupiditate temporibus, in, nam accusamus iusto facere reprehenderit dolor asperiores delectus et quod impedit consectetur, maiores ex aliquid. Quod, quos nemo.</p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="products">
+        <div class="title">
+            <h3>Our Collection</h3>
+        </div>
+        <div class="product">
+            <img src="img/v/v1.jpg" alt="" class="vertical1">
+            <img src="img/h/h1.jpg" alt="" class="horizontal1">
+            <img src="img/v/v2.png" alt="" class="vertical2">
+            <img src="img/h/h2.jpg" alt="" class="horizontal2">
+            <img src="img/s/s1.jpg" alt="" class="square1">
+            <img src="img/s/s2.jpg" alt="" class="square2">
+        </div>
+    </section>
+    <section id="contact">
+        <div class="title">
+            <h3>Contact Us</h3>
+        </div>
+        <div class="contact">
+            <div class="google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2374.2610352753754!2d-2.239445884729916!3d53.48166558000761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb1107c82c9db%3A0x1425423aa40d07e5!2sBella%20Italia%20-%20Manchester%20Piccadilly!5e0!3m2!1sen!2ssa!4v1592155016348!5m2!1sen!2ssa"
+                    width="450" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div class="contact-form">
+                <form action="">
+                    <label for="">Name</label>
+                    <input type="text" id="input">
+                    <label for="">E-mail</label>
+                    <input type="text" id="input">
+                    <label for="">Country</label>
+                    <select name="" id="input">
+                        <option value="" placeholder="Country"></option>
+                        <option value="">United Kingdom</option>
+                        <option value="">Canada</option>
+                        <option value="">Australia</option>
+                        <option value="">Chad</option>
+                    </select>
+                    <label for="">Comment</label>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="type your comment"></textarea>
+                    <button type="submit"><a>Send</a></button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="footer-list">
+                <div class="title">
+                    <h4>More Products</h4>
+                </div>
+                <ul>
+                    <li>
+                        <a href="">Sofas</a>
+                    </li>
+                    <li>
+                        <a href="">Tables</a>
+                    </li>
+                    <li>
+                        <a href="">Dinning Room</a>
+                    </li>
+                    <li>
+                        <a href="">Living Room</a>
+                    </li>
+                    <li>
+                        <a href="">Offices Furniture</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="address">
+                <div class="title">
+                    <h4>Address</h4>
+                </div>
+                <p>Picadelly 23323</p>
+                <p>Manchester 1412</p>
+                <p>United Kingdom 14241</p>
+            </div>
+            <div class="social-media">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="sub-footer">
+            <div class="copywrite">
+                <p>Abkar Dev &copy; 2020</p>
+            </div>
+            <div class="credit"></div>
+        </div>
+
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
